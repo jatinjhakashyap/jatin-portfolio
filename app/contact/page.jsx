@@ -125,15 +125,13 @@ export default function Contact() {
               onSubmit={handleSubmit}
             >
               <h3 className="text-4xl text-accent">Let us work together</h3>
-              /* eslint-disable <rule-name> */</rule-name>
               <p className="text-white/60">
-                Let’s work together to take your business to the next level! I
+                Let&apos;s work together to take your business to the next level! I
                 specialize in SEO, performance marketing, and creative
-                strategies that drive measurable results. Whether it’s boosting
-                your online presence or generating leads, I’m here to help.
-                Reach out today and let’s create something amazing!
+                strategies that drive measurable results. Whether it&apos;s boosting
+                your online presence or generating leads, I&apos;m here to help.
+                Reach out today and let&apos;s create something amazing!
               </p>
-              /* eslint-enable <rule-name> */</rule-name>
 
               {/* Display success/error */}
               {successMsg && <p className="text-green-500">{successMsg}</p>}
