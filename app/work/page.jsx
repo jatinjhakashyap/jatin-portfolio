@@ -22,33 +22,33 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "SEO",
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+    stack: [{ name: "On-Page SEO" }, { name: "Off-Page SEO" }, { name: "UI UX Design" }],
+    image: "/assets/work/seoproject1.png",
     live: "",
     github: "",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Pay Per Click",
     title: "project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+    stack: [{ name: "Google Search Ads" }, { name: "Google Display Ads" }, { name: "Meta Ads" }],
     image: "/assets/work/thumb2.png",
     live: "",
     github: "",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Content Marketing",
     title: "project 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    stack: [{ name: "Google Ads" }, { name: "SEO" }],
     image: "/assets/work/thumb3.png",
     live: "",
     github: "",

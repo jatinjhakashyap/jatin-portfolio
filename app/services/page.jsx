@@ -6,30 +6,58 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Search Engine Optimisation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "We enhance your websites visibility by conducting thorough keyword research, optimizing on-page elements, improving technical SEO, and building high-quality backlinks. With our services, customers experience improved search engine rankings, consistent organic traffic growth, and a competitive edge. We focus on long-term sustainability, ensuring your website ranks higher for targeted queries and generates qualified leads while improving overall online presence and user experience.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Google Ads",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "We create targeted Google Ads campaigns tailored to your business goals. By leveraging keyword intent, audience segmentation, and A/B testing, we ensure cost-effective ad spend and maximum ROI. Customers benefit from instant visibility, increased website traffic, and high-quality leads. Whether you want to generate sales, promote services, or improve brand awareness, our data-driven strategies deliver measurable results, helping you grow faster in competitive markets.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Meta Ads",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Our Meta Ads campaigns utilize advanced targeting on Facebook and Instagram to reach your ideal audience. We craft engaging ad creatives, optimize budgets, and analyze performance for continuous improvement. Customers gain better brand visibility, increased engagement, and cost-efficient conversions. From lead generation to retargeting, our strategies ensure your business stands out on social platforms, driving consistent results and building lasting customer relationships.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Social Media Marketing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "We create and implement effective social media strategies that resonate with your audience on platforms like Instagram, LinkedIn, and Twitter. Customers benefit from increased follower growth, higher engagement rates, and improved brand credibility. By crafting consistent, visually appealing, and value-driven content, we boost your brand’s online presence and turn audiences into loyal customers. Our analytics-driven approach ensures measurable success in achieving your business goals.",
+    href: "",
+  },
+  {
+    num: "05",
+    title: "Email Marketing",
+    description:
+      "We design tailored email marketing campaigns that nurture leads, retain customers, and drive sales. Using segmented lists, compelling subject lines, and persuasive content, we increase open rates and conversions. Customers experience enhanced engagement, repeat business, and a stronger brand connection. From newsletters to automated sequences, our strategies deliver personalized messages that resonate, making email one of the highest ROI channels for your business growth.",
+    href: "",
+  },
+  {
+    num: "06",
+    title: "Mobile App Promotion",
+    description:
+      "Our mobile app promotion services focus on app store optimization, targeted ad campaigns, and user engagement strategies. Customers gain improved app visibility, higher downloads, and increased active users. By leveraging app-install ads and in-app analytics, we attract the right audience and enhance user retention. Our strategies ensure your app ranks higher in app stores, delivering measurable results in the competitive app ecosystem.",
+    href: "",
+  },
+  {
+    num: "07",
+    title: "Traffic & Lead Generation",
+    description:
+      "We implement proven lead generation techniques like landing page optimization, paid ads, and strategic content. Customers benefit from a steady stream of high-quality leads and increased web traffic. Our data-driven approach ensures targeted outreach to your ideal audience, maximizing conversions while reducing acquisition costs. Whether your goal is B2B or B2C, our strategies deliver actionable results to help grow your revenue and customer base.",
+    href: "",
+  },
+  {
+    num: "08",
+    title: "Content Marketing",
+    description:
+      "We develop high-quality blogs, videos, and infographics to drive traffic and boost engagement. Our SEO-optimized content aligns with your target audience’s needs, improving search engine rankings and brand trust. Customers enjoy sustained organic growth, increased website visits, and better customer retention. By combining storytelling with analytics, we ensure your content not only educates but also converts, positioning your business as an industry leader.",
     href: "",
   },
 ];

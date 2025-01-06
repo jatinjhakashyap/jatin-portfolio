@@ -1,33 +1,30 @@
 "use client";
 
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
   FaFigma,
-  FaNodeJs,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiGoogleads, SiMeta, SiInstagram, SiGoogleanalytics } from "react-icons/si";
+import { TbSeo } from "react-icons/tb";
+import { MdMenuBook, MdMarkEmailRead } from "react-icons/md";
 
 // about data
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I’m Jatin Kashyap, a seasoned digital marketing professional with over 5 years of experience in SEO, performance marketing, and content strategy. I specialize in driving growth through data-driven campaigns and creative solutions. Fluent in English and Hindi, I connect with diverse audiences and deliver impactful results. As an Indian national, I’m available for freelance opportunities globally. Reach me at marketingwithkashyap@gmail.com to discuss your next project.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Jatin Kashyap",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+91) 7733001147",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "5+ Years",
     },
     {
       fieldName: "Skype",
@@ -35,11 +32,11 @@ const about = {
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Indian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "marketingwithkashyap@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +44,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Hindi",
     },
   ],
 };
@@ -57,37 +54,37 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I am an experienced digital marketer with expertise in managing high-budget ad campaigns, content creation, and SEO strategy. I’ve successfully spent $500K+ on Google and Meta Ads, achieving an average ROAS of 3.2. With over 100 blogs delivered, I specialize in crafting SEO-optimized content that drives organic traffic. I’ve provided 20+ SEO consultations, helping businesses improve search rankings and visibility. My skill set also includes email marketing, social media strategy, local SEO, mobile app promotion, and lead generation. I excel at data-driven strategies, delivering measurable results, and helping brands achieve sustainable growth in competitive digital landscapes.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
+      company: "AIIOS - Educational Institute",
+      position: "Paid Ads Specialist Freelance",
+      duration: "2020 - Present",
+    },
+    {
+      company: "True Vastu - Consulting Firm",
+      position: "SEO & PPC Specialist Freelance",
       duration: "2022 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Vedic Meet",
+      position: "SEO Consultation Freelance",
+      duration: "2024 - Present",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Vitto Money",
+      position: "Marketing Specialist",
+      duration: "2024 - 3 Months",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
+      company: "Astrovaidya",
+      position: "Google Ads Expert",
+      duration: "2023 - 2024",
     },
     {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "100+ Business Profile",
+      position: "Local SEO",
+      duration: "2020 - Present",
     },
   ],
 };
@@ -97,37 +94,47 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I bring a strong foundation in Marketing and Data Analytics, earned through my MBA from Nirma University, and technical expertise in Computer Science Engineering. My specialization includes SEO and Content Marketing, backed by certifications from the University of California, Davis, covering advanced SEO techniques and strategic content creation. I am certified in Google Ads Search and have honed Data Analytics & Presentation Skills through PwC. Additionally, I possess expertise in UI/UX Designing from Zero to Mastery Academy and have achieved a Lean Six Sigma Green Belt from KPMG, enabling me to approach problems with precision and efficiency.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Institute of Management, Nirma University",
+      degree: "MBA in Marketing & Data Analytics",
+      duration: "2023 - 2025",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "Institute of Technology, Nirma University",
+      degree: "Computer Science Engineering",
+      duration: "2023 Graduated",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "University of California, Davis",
+      degree: "Professional SEO Certification",
+      duration: "6 Months",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "University of California, Davis",
+      degree: "The Strategy of Content Marketing",
+      duration: "3 Months",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "Google",
+      degree: "Google Ads Search Certification",
+      duration: "6 Months",
     },
     {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "PWC",
+      degree: "Data Analytics & Presentation Skills",
+      duration: "6 Months",
+    },
+    {
+      institution: "Zero to Mastery Academy",
+      degree: "UI UX Designing",
+      duration: "3 Months",
+    },
+    {
+      institution: "KPMG",
+      degree: "Lean Six Sigma",
+      duration: "32 Classroom Hours",
     },
   ],
 };
@@ -136,39 +143,39 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I excel in SEO, optimizing websites for higher search engine rankings and organic traffic. With proficiency in Google Ads and Meta Ads, I create performance-driven campaigns to maximize ROI. My expertise in Social Media Marketing helps brands build engagement and grow their audience. I specialize in Content Marketing, delivering impactful strategies for audience retention and SEO growth. I’m adept at leveraging Google Analytics for data-driven insights and performance tracking. Additionally, I have hands-on experience with Figma for UI/UX design, ensuring user-friendly interfaces and seamless brand experiences.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <TbSeo />,
+      name: "SEO",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiGoogleads />,
+      name: "Google Ads",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiMeta />,
+      name: "Meta Ads",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <SiInstagram />,
+      name: "Social Media Marketing",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <MdMenuBook />,
+      name: "Content Marketing",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
-    },
-    {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiGoogleanalytics />,
+      name: "Google Analytics",
     },
     {
       icon: <FaFigma />,
       name: "figma",
+    },
+    {
+      icon: <MdMarkEmailRead />,
+      name: "Email Marketing",
     },
   ],
 };
