@@ -14,6 +14,7 @@ const Home = () => {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Digital Marketing Expert</span>
+            /* eslint-disable <rule-name> */</rule-name>
             <h1 className="h1 mb-6">
               Hello I am <br /> <span className="text-accent">Jatin Kashyap</span>
             </h1>
@@ -21,6 +22,7 @@ const Home = () => {
               I excel at running digital marketing campagins to generate traffic, engagement, sales and leads for your business. 
               I use data-driven marketing strategy to deliver the best result with high Return on Investment.
             </p>
+            /* eslint-enable <rule-name> */</rule-name>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
