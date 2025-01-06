@@ -15,7 +15,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Digital Marketing Expert</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Jatin Kashyap</span>
+              Hello I am <br /> <span className="text-accent">Jatin Kashyap</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at running digital marketing campagins to generate traffic, engagement, sales and leads for your business. 

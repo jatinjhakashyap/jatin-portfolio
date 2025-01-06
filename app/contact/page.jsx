@@ -55,7 +55,7 @@ export default function Contact() {
     const message = e.target.elements.message.value;
 
     // Insert your real SendGrid API key here (VERY INSECURE)
-    // const sendGridApiKey = "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";
+
 
     try {
       // Send POST request to SendGrid's v3 endpoint
@@ -124,7 +124,7 @@ export default function Contact() {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               onSubmit={handleSubmit}
             >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let us work together</h3>
               <p className="text-white/60">
                 Let’s work together to take your business to the next level! I
                 specialize in SEO, performance marketing, and creative
