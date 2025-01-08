@@ -12,7 +12,7 @@ import { MdMenuBook, MdMarkEmailRead } from "react-icons/md";
 const about = {
   title: "About me",
   description:
-    "I’m Jatin Kashyap, a seasoned digital marketing professional with over 5 years of experience in SEO, performance marketing, and content strategy. I specialize in driving growth through data-driven campaigns and creative solutions. Fluent in English and Hindi, I connect with diverse audiences and deliver impactful results. As an Indian national, I’m available for freelance opportunities globally. Reach me at marketingwithkashyap@gmail.com to discuss your next project.",
+    "I&apos;m Jatin Kashyap, a seasoned digital marketing professional with over 5 years of experience in SEO, performance marketing, and content strategy. I specialize in driving growth through data-driven campaigns and creative solutions. Fluent in English and Hindi, I connect with diverse audiences and deliver impactful results. As an Indian national, I’m available for freelance opportunities globally. Reach me at marketingwithkashyap@gmail.com to discuss your next project.",
   info: [
     {
       fieldName: "Name",
@@ -28,7 +28,7 @@ const about = {
     },
     {
       fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldValue: "Jatin Kashyap",
     },
     {
       fieldName: "Nationality",

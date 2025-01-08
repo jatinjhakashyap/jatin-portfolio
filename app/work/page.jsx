@@ -25,33 +25,30 @@ const projects = [
     category: "SEO",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+      "I focused on on-page optimization by enhancing internal link building, optimizing meta tags, and refining website structure for better keyword targeting. For off-page SEO, I executed a link-building campaign, delivering 20 guest blogs across high-authority platforms. These efforts boosted domain authority, drove relevant traffic, and improved search engine rankings, strengthening Vitto Money&apos;s online presence and overall SEO performance.",
     stack: [{ name: "On-Page SEO" }, { name: "Off-Page SEO" }, { name: "UI UX Design" }],
     image: "/assets/work/seoproject1.png",
-    live: "",
-    github: "",
+    live: "https://www.vitto.money/",
   },
   {
     num: "02",
     category: "Pay Per Click",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Google Search Ads" }, { name: "Google Display Ads" }, { name: "Meta Ads" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "I managed a Google Ads campaign with a $100K budget, achieving an impressive ROI of 5.2 and a strong conversion rate of 15-20%. The campaign utilized a mix of Google Search Ads, Display Ads, Video Ads, and Performance Max campaigns to target the right audience effectively. By optimizing ad creatives, keywords, and targeting strategies, I successfully drove high-quality traffic, resulting in significant conversions and excellent returns on investment.",
+    stack: [{ name: "Google Search Ads" }, { name: "Google Display Ads" }, { name: "Google Video Ads" }],
+    image: "/assets/work/googleadsproject1.png",
+    live: "https://www.occultscience.in/",
   },
   {
     num: "03",
     category: "Content Marketing",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Google Ads" }, { name: "SEO" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+      "I designed a strategy to gain 300K followers in 2 years using organic methods. This involved strategic hashtag research and implementation to improve discoverability, posting high-quality and engaging content consistently, and leveraging trending topics to attract a wider audience. I also focused on building an active community through regular interactions, hosting giveaways, collaborating with influencers, and encouraging user-generated content to drive organic growth and maintain sustained engagement.",
+    stack: [{ name: "Social Media Marketing" }, { name: "Instagram Marketing" }, { name: "Strategy Building" }],
+    image: "/assets/work/contentmarketingproject1.png",
+    live: "https://www.instagram.com/vedic.meet/",
   },
 ];
 
@@ -118,7 +115,7 @@ const Work = () => {
                   </TooltipProvider>
                 </Link>
                 {/* github project button */}
-                <Link href={project.github}>
+                {/* <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -129,7 +126,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
