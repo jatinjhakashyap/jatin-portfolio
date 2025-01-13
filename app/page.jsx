@@ -18,19 +18,21 @@ const Home = () => {
               Hello I&apos;m <br /> <span className="text-accent">Jatin Kashyap</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at running digital marketing campagins to generate traffic, engagement, sales and leads for your business. 
+              I excel at running digital marketing campaigns to generate traffic, engagement, sales, and leads for your business. 
               I use data-driven marketing strategy to deliver the best result with high Return on Investment.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <a href="/assets/Jatin_Kashyap_CV.pdf" download="Jatin_Kashyap_CV.pdf">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
