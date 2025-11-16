@@ -57,29 +57,29 @@ const experience = {
     "I am an experienced digital marketer with expertise in managing high-budget ad campaigns, content creation, and SEO strategy. I’ve successfully spent $500K+ on Google and Meta Ads, achieving an average ROAS of 3.2. With over 100 blogs delivered, I specialize in crafting SEO-optimized content that drives organic traffic. I’ve provided 20+ SEO consultations, helping businesses improve search rankings and visibility. My skill set also includes email marketing, social media strategy, local SEO, mobile app promotion, and lead generation. I excel at data-driven strategies, delivering measurable results, and helping brands achieve sustainable growth in competitive digital landscapes.",
   items: [
     {
-      company: "AIIOS - Educational Institute",
-      position: "Paid Ads Specialist Freelance",
-      duration: "2020 - Present",
+      company: "Vedic Meet - SaaS Platform",
+      position: "Performance Marketing Manager",
+      duration: "2025 - Present",
     },
     {
-      company: "True Vastu - Consulting Firm",
-      position: "SEO & PPC Specialist Freelance",
-      duration: "2022 - Present",
+      company: "Octaloop - Marketing Agency",
+      position: "Peformance Marketing Associate",
+      duration: "July 2024 - March 2025",
     },
     {
-      company: "Vedic Meet",
-      position: "SEO Consultation Freelance",
+      company: "Occult Science Institute - EduTech",
+      position: "Peformance Marketing Google Ads Freelancer",
       duration: "2024 - Present",
     },
     {
       company: "Vitto Money",
       position: "Marketing Specialist",
-      duration: "2024 - 3 Months",
+      duration: "3 Months",
     },
     {
       company: "Astrovaidya",
       position: "Google Ads Expert",
-      duration: "2023 - 2024",
+      duration: "6 Months",
     },
     {
       company: "100+ Business Profile",
@@ -99,7 +99,7 @@ const education = {
     {
       institution: "Institute of Management, Nirma University",
       degree: "MBA in Marketing & Data Analytics",
-      duration: "2023 - 2025",
+      duration: "2025 Graduated",
     },
     {
       institution: "Institute of Technology, Nirma University",
