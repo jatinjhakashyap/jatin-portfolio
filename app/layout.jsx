@@ -13,8 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Digital Marketing Expert | 100+ Project Completed | Contact Now",
-  description: "Expert in Digital Marketing, SEO, Google Ads, and Local Search Optimization. Helping businesses achieve online success with proven strategies.",
+  title: "Performance Marketing Expert | Handling $18K+ Monthly Ad Spend",
+  description: "5+ Years of expertise in driving performance through Google Ads and Meta Ads. I run lead generation, sales and brand awareness campaigns.",
 };
 
 export default function RootLayout({ children }) {
